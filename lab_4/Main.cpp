@@ -35,12 +35,12 @@
 // wlasciciela nie ma praw dostepu.
 
 
-//#include <iostream>
+#include <iostream>
 #include "MapPoint.h"
 
-//#ifdef MAPCALC
- //   #include "MapDistance.h"
-//#endif
+#ifdef MAPCALC
+    #include "MapDistance.h"
+#endif
 
 int main() {
   const double longitude = 19.938333;
@@ -59,7 +59,7 @@ MapPoint *krk= construct("Krakow", latitude, longitude);
     const double latitudeShift = -25.987;
     movePoint(irkutsk, latitudeShift, longitudeShift);
     print(siberiaCapital);
-    MapPoint mp = inTheMiddle(krk,  siberiaCapital, "Somewhere but not here");
+    MapPoint *mp = inTheMiddle(krk,  siberiaCapital, "Somewhere but not here");
     print(mp);
     clear(mp);
   #endif

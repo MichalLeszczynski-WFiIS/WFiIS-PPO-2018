@@ -1,6 +1,6 @@
 GXX = g++
 OUTPUT = Lab04
-CXXFLAGS = -g
+CXXFLAGS = -g -Wall
 SRC = $(wildcard *.cpp)
 OBS = $(SRC:.cpp=.o)
 DEP = $(SRC:.cpp = .d) 
@@ -21,9 +21,12 @@ run:
 
 clean:
 	rm *.o $(OUTPUT)
+debug:
+	gdb $(OUTPUT)
+memcheck:
+	valgrind --leak-check=full ./$(OUTPUT)
 
 
-
-.PHONY: clean all run
+.PHONY: clean all run memcheck debug
 
 	-include $(DEP)

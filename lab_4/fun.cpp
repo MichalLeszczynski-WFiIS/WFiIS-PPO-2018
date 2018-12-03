@@ -1,7 +1,6 @@
-//#include "MapDistance.h"
 #include "MapPoint.h"
 
-MapPoint *construct(string name, double lati, double longi)
+MapPoint *construct(std::string name, double lati, double longi)
 {
 	MapPoint *location = (MapPoint*)malloc(sizeof(MapPoint));
 	location->name = name;
@@ -18,5 +17,5 @@ std::cout<<"Position of "<<location->name<<". Latitude: "<<location->lati<<". Lo
 }
 void clear(MapPoint* location)
 {
-	delete location;
+	free(location);
 }

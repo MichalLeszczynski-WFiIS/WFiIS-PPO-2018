@@ -1,3 +1,5 @@
-#ifndef MapPoint_h
-	#define MapPoint_h
-#endif
+#include "MapPoint.h"
+
+
+MapPoint *inTheMiddle(MapPoint *, MapPoint *, std::string);
+void movePoint(MapPoint *,double,double);

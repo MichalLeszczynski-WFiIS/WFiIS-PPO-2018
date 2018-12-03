@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Grade.h
+iostream
+-
+
+../include/GradeBook.h
+Grade.h
+../include/Grade.h
+iostream
+-
+
+/home/stud2017/7leszczynski/preoop/lab_8/Main.cpp
+iostream
+-
+Grade.h
+/home/stud2017/7leszczynski/preoop/lab_8/Grade.h
+GradeBook.h
+/home/stud2017/7leszczynski/preoop/lab_8/GradeBook.h
+
+/home/stud2017/7leszczynski/preoop/lab_8/src/Grade.cpp
+Grade.h
+/home/stud2017/7leszczynski/preoop/lab_8/src/Grade.h
+
+/home/stud2017/7leszczynski/preoop/lab_8/src/GradeBook.cpp
+GradeBook.h
+/home/stud2017/7leszczynski/preoop/lab_8/src/GradeBook.h
+

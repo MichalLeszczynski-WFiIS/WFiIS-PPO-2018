@@ -1,0 +1,3 @@
+/home/stud2017/7leszczynski/preoop/lab_7/src/CMakeFiles/rebuild_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_7/src/CMakeFiles/edit_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_7/src/CMakeFiles/Mapa.dir

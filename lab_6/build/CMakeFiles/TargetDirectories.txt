@@ -1,0 +1,7 @@
+/home/stud2017/7leszczynski/preoop/lab_6/build/CMakeFiles/rebuild_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/CMakeFiles/edit_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/CMakeFiles/Lab06.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/src/CMakeFiles/rebuild_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/src/CMakeFiles/edit_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/include/CMakeFiles/rebuild_cache.dir
+/home/stud2017/7leszczynski/preoop/lab_6/build/include/CMakeFiles/edit_cache.dir

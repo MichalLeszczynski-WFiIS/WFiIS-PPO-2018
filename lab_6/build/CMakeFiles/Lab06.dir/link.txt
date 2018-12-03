@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -O3   CMakeFiles/Lab06.dir/src/Main.cpp.o CMakeFiles/Lab06.dir/src/StudentList.cpp.o  -o Lab06 

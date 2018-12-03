@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stud2017/7leszczynski/preoop/lab_6/src/Main.cpp
+StudentList.h
+/home/stud2017/7leszczynski/preoop/lab_6/src/StudentList.h
+StudentList.h
+/home/stud2017/7leszczynski/preoop/lab_6/src/StudentList.h
+
+/home/stud2017/7leszczynski/preoop/lab_6/src/StudentList.cpp
+StudentList.h
+/home/stud2017/7leszczynski/preoop/lab_6/src/StudentList.h
+
+/home/stud2017/7leszczynski/preoop/lab_6/src/StudentList.h
+iostream
+-
+string.h
+-
+

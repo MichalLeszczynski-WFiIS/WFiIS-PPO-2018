@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g   CMakeFiles/StringStory.dir/Main.cpp.o  -o StringStory -rdynamic 

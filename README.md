@@ -1,4 +1,3 @@
 # Preoop
 
-Code written for subject Introduction to Object-oriented Programming (winter semester 2018/2019, AGH WFiIS IS). 
-C++
+Tasks for subject "Podstawy Programowania Obiektowego" (Basics of Object Oriented Programming) year 2018/19 
